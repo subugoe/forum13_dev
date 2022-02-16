@@ -1,0 +1,35 @@
+url: ~
+template:
+  bootstrap: 5
+  bootswatch: cosmo
+  bslib:
+    primary: "#04658F"
+    navbar-light-active-color: "#fff"
+    navbar-light-hover-color: "#bfbfbf"
+    navbar-light-color: "#fff"
+    navbar-light-contrast: "#f1f0ef"
+    pkgdown-nav-height: 78px
+  path: "inst/pkgdown"
+
+navbar:
+  bg: primary
+  type: light
+  left:
+  - text: "Home"
+    href: index.html
+  - text: "Über uns"
+    href: articles/uberuns.html
+  - text: "Personen"
+    href: articles/personen.html
+  - text: "Publikationen"
+    href: articles/publikationen.html
+
+title: "Arbeitskreis Forum 13+"
+
+home:
+  sidebar:
+    html: inst/pkgdown/oachart.html
+
+lang: de
+
+

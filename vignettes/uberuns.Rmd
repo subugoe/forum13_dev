@@ -1,0 +1,12 @@
+---
+title: "Über uns"
+pkgdown:
+    as_is:true
+---
+
+Der **Arbeitskreis Forum 13+** ist ein unabhängiger Arbeitskreis von Expert*innen aus deutschen Bibliothekskonsortien als Akteuren der überregionalen Lizenzierung, von Open-Access-Infrastrukturprojekten, Hochschulbibliotheken, des Deutschen Bibliotheksverbandes (dbv) und der Deutschen Forschungsgemeinschaft (DFG).
+Ziel der Aktivitäten ist der Austausch zu Fragen rund um die Modellierung und praktische Implementierung von Open-Access-Transformationsverträgen sowie die Koordination von Verhandlungen mit kleinen und mittelgroßen Verlagen bzw. Fachgesellschaften.
+Forum 13+ sieht seine Arbeit komplementär zu den Aktivitäten von Projekt DEAL, das den Abschluss von nationalen Verträgen mit den drei größten Fachverlagen vorantreibt.
+Der Arbeitskreis Forum 13+ ist aus dem Umfeld der Allianz-Initiative „Digitale Information“ hervorgegangen und fühlt sich den Strategien der Allianz verpflichtet.
+
+**Kooperative Leitung**: Kai Karin Geschuhn (MPDL München), Kristine Hillenkötter (SUB Göttingen), Dr. Hildegard Schäffler (Bayerische Staatsbibliothek, München)

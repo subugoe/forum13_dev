@@ -1,0 +1,87 @@
+---
+output: github_document
+always_allow_html: true
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  collapse = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE,
+  fig.width = 6,
+  fig.asp = 0.618,
+  out.width = "70%",
+  fig.align = "center",
+  dpi = 300
+)
+```
+
+<h1>Arbeitskreis Forum 13+</h1>
+
+<div class="lead"  style="margin-top: 50px;">
+
+
+Der **Arbeitskreis Forum 13+** ist ein unabhängiger Arbeitskreis von Expert*innen aus deutschen Bibliothekskonsortien als Akteuren der überregionalen Lizenzierung, von Open-Access-Infrastrukturprojekten, Hochschulbibliotheken, des Deutschen Bibliotheksverbandes (dbv) und der Deutschen Forschungsgemeinschaft (DFG).
+Ziel der Aktivitäten ist der Austausch zu Fragen rund um die Modellierung und praktische Implementierung von Open-Access-Transformationsverträgen sowie die Koordination von Verhandlungen mit kleinen und mittelgroßen Verlagen bzw. Fachgesellschaften.
+
+
+```{r, echo=FALSE,message=FALSE}
+library(tidyverse)
+library(ggiraph)
+library(cowplot)
+my_df <- tibble::tribble(
+
+~publisher, ~type, ~prop,~colors,
+"Springer Nature","DEAL",0.19,"#ff6900",
+"Elsevier","other",0.19,"#abb8c3",
+"Wiley","DEAL",0.1,"#ff6900",
+"MPDI","OA",0.04,"#ff6900",
+"ACS","other",0.03,"#abb8c3",
+"T&F","other",0.03,"#abb8c3",
+"Frontiers","OA",0.03,"#ff6900",
+"RSC","other",0.03,"#abb8c3",
+"OUP","other",0.03,"#abb8c3",
+"APS","other",0.03,"#abb8c3",
+"Thieme","other",0.02,"#abb8c3",
+"IOP","other",0.02,"#abb8c3",
+"Sonstige","other",0.26,"#e5e5e5"
+)
+
+p <- my_df %>%
+  mutate(publisher = forcats::fct_inorder(publisher)) %>%
+  ggplot(aes(x = "", y = prop, fill = type, group = publisher)) +
+  geom_bar_interactive(width = 1,
+           stat = "identity",
+           color = "white",
+           position = position_stack(reverse = FALSE),
+           alpha = 0.9,
+           aes(tooltip = paste0(publisher, " (", round(prop, 2) * 100, "%)"))) +
+  scale_fill_manual(NULL, values = c("DEAL" = "#B52141", "OA" = "#0093c7", "other" = "grey60"), breaks= c("DEAL", "OA")) +
+  scale_y_continuous(labels = scales::percent_format(),  expand = expansion(mult = c(0, 0.05))) +
+    geom_text(aes(label = publisher), 
+               position = position_stack(vjust = 0.5), size = 7,
+              color = "white") +
+   cowplot::theme_minimal_hgrid(font_size= 22) +
+    theme(plot.caption = element_text(hjust = 0, face= "italic"),
+        plot.title.position = "plot", 
+        plot.caption.position =  "plot",
+        plot.title = element_text(face = "plain")) +
+  theme(legend.position="top") +
+  labs(x = NULL, y = NULL, title = "Wissenschaftlichen Artikel\ndeutscher Einrichtungen\n2018-20",
+       caption = "Quelle: https://open-access-monitor.de/")
+
+htmlwidgets::saveWidget(girafe(
+  ggobj = p,
+  width_svg = 6,
+  height_svg = 25*0.618
+), "inst/pkgdown/oachart.html")
+```
+
+</div>
+
