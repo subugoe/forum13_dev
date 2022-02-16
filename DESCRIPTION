@@ -1,5 +1,5 @@
 Package: forum13new
-Title: What the Package Does (One Line, Title Case)
+Title: Arbeitskreis Forum 13+
 Version: 0.1
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
