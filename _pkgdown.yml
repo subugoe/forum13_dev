@@ -9,6 +9,7 @@ template:
     navbar-light-color: "#fff"
     navbar-light-contrast: "#f1f0ef"
     pkgdown-nav-height: 78px
+    font_scale: 1.2
   path: "inst/pkgdown"
 
 navbar:
