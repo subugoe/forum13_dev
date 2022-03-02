@@ -4,7 +4,10 @@ pkgdown:
     as_is:true
 ---
 
-- Kai Geschuhn, [Max Planck Digital Library München](https://www.mpg.de/mpdl-de) ( https://www.mpg.de/mpdl-de) 
+## 
+
+
+- Kai Geschuhn, [Max Planck Digital Library München](https://www.mpg.de/mpdl-de) 
 - Lydia Glorius, [Niedersächsische Staats- und Universitätsbibliothek Göttingen](https://www.sub.uni-goettingen.de/)
 - Kristine Hillenkötter, [Niedersächsische Staats- und Universitätsbibliothek Göttingen](https://www.sub.uni-goettingen.de/)
 - Dr. Angela Holzer, [Deutsche Forschungsgemeinschaft](https://www.dfg.de/) (Gast) 
@@ -32,3 +35,4 @@ Durch die Mitglieder werden im Forum 13+ folgende Infrastrukturen und Initiative
 - [Nationaler Open-Access-Kontaktpunkt](https://oa2020-de.org/) 
 - [Open-Access-Monitor](https://open-access-monitor.de/)
 - [Projekt DEAL](https://www.projekt-deal.de/) 
+

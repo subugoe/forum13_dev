@@ -24,7 +24,7 @@ knitr::opts_chunk$set(
 
 <h1>Arbeitskreis Forum 13+</h1>
 
-<div class="lead"  style="margin-top: 50px;">
+<div style="margin-top: 50px;">
 
 
 Der **Arbeitskreis Forum 13+** ist ein unabhängiger Arbeitskreis von Expert*innen aus deutschen Bibliothekskonsortien als Akteuren der überregionalen Lizenzierung, von Open-Access-Infrastrukturprojekten, Hochschulbibliotheken, des Deutschen Bibliotheksverbandes (dbv) und der Deutschen Forschungsgemeinschaft (DFG).
@@ -65,7 +65,7 @@ p <- my_df %>%
   scale_fill_manual(NULL, values = c("DEAL" = "#B52141", "OA-Verlag" = "#0093c7", "other" = "grey60"), breaks= c("DEAL", "OA-Verlag")) +
   scale_y_continuous(labels = scales::percent_format(),  expand = expansion(mult = c(0, 0.05))) +
     geom_text(aes(label = publisher), 
-               position = position_stack(vjust = 0.5), size = 7,
+               position = position_stack(vjust = 0.5), size = 5.5,
               color = "white") +
    cowplot::theme_minimal_hgrid(font_size= 22, font_family = "Roboto") +
     theme(plot.caption = element_text(hjust = 0, face= "italic"),
@@ -73,15 +73,17 @@ p <- my_df %>%
         plot.caption.position =  "plot",
         plot.title = element_text(face = "plain")) +
   theme(legend.position="top") +
+  theme(plot.title = element_text(size=30)) +
   labs(x = NULL, y = NULL, title = "Wissenschaftlichen Artikel\ndeutscher Einrichtungen\n2018-20",
        caption = 'Quelle: https://open-access-monitor.de\n(Datenstand vom 26.01.2022)')
 
 htmlwidgets::saveWidget(girafe(
   ggobj = p,
   width_svg = 6,
-  height_svg = 25*0.618
+  height_svg = 18*0.618
 ), "inst/pkgdown/oachart.html")
 ```
 
 </div>
+
 

@@ -4,7 +4,7 @@
 Arbeitskreis Forum 13+
 </h1>
 
-<div class="lead" style="margin-top: 50px;">
+<div style="margin-top: 50px;">
 
 Der **Arbeitskreis Forum 13+** ist ein unabhängiger Arbeitskreis von
 Expert\*innen aus deutschen Bibliothekskonsortien als Akteuren der
