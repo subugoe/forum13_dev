@@ -7,7 +7,7 @@ pkgdown:
 ## Kooperative Leitung
 
 - Kai Karin Geschuhn (MPDL München) | geschuhn[at]mpdl.mpg.de | ORCID: 0000-0001-5849-8751
-- Kristine Hillenkötter (SUB Göttingen) | hillenkoetter[at]sub.uni-goettingen.de
+- Kristine Hillenkötter ([SUB Göttingen](https://sub.uni-goettingen.de)) | hillenkoetter[at]sub.uni-goettingen.de
 - Dr. Hildegard Scheffler (BSB München) | schaeffler[at]bsb-muenchen.de
 
 ## weitere Mitglieder

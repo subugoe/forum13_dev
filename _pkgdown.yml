@@ -10,6 +10,8 @@ template:
     navbar-light-contrast: "#f1f0ef"
     pkgdown-nav-height: 78px
     font_scale: 1.2
+    base_font: {google: "Roboto"}
+    heading_font: {google: "Roboto Slab"}
   path: "inst/pkgdown"
 
 navbar:

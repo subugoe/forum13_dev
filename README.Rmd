@@ -41,10 +41,10 @@ my_df <- tibble::tribble(
 "Springer Nature","DEAL",0.19,"#ff6900",
 "Elsevier","other",0.19,"#abb8c3",
 "Wiley","DEAL",0.1,"#ff6900",
-"MPDI","OA",0.04,"#ff6900",
+"MPDI","OA-Verlag",0.04,"#ff6900",
 "ACS","other",0.03,"#abb8c3",
 "T&F","other",0.03,"#abb8c3",
-"Frontiers","OA",0.03,"#ff6900",
+"Frontiers","OA-Verlag",0.03,"#ff6900",
 "RSC","other",0.03,"#abb8c3",
 "OUP","other",0.03,"#abb8c3",
 "APS","other",0.03,"#abb8c3",
@@ -62,19 +62,19 @@ p <- my_df %>%
            position = position_stack(reverse = FALSE),
            alpha = 0.9,
            aes(tooltip = paste0(publisher, " (", round(prop, 2) * 100, "%)"))) +
-  scale_fill_manual(NULL, values = c("DEAL" = "#B52141", "OA" = "#0093c7", "other" = "grey60"), breaks= c("DEAL", "OA")) +
+  scale_fill_manual(NULL, values = c("DEAL" = "#B52141", "OA-Verlag" = "#0093c7", "other" = "grey60"), breaks= c("DEAL", "OA-Verlag")) +
   scale_y_continuous(labels = scales::percent_format(),  expand = expansion(mult = c(0, 0.05))) +
     geom_text(aes(label = publisher), 
                position = position_stack(vjust = 0.5), size = 7,
               color = "white") +
-   cowplot::theme_minimal_hgrid(font_size= 22) +
+   cowplot::theme_minimal_hgrid(font_size= 22, font_family = "Roboto") +
     theme(plot.caption = element_text(hjust = 0, face= "italic"),
         plot.title.position = "plot", 
         plot.caption.position =  "plot",
         plot.title = element_text(face = "plain")) +
   theme(legend.position="top") +
   labs(x = NULL, y = NULL, title = "Wissenschaftlichen Artikel\ndeutscher Einrichtungen\n2018-20",
-       caption = "Quelle: https://open-access-monitor.de/")
+       caption = 'Quelle: https://open-access-monitor.de\n(Datenstand vom 26.01.2022)')
 
 htmlwidgets::saveWidget(girafe(
   ggobj = p,

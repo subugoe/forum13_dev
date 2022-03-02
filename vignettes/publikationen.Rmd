@@ -4,12 +4,13 @@ pkgdown:
     as_is:true
 ---
 
-## Publikationen aus dem Arbeitskreis Forum 13+
+## Publikationen aus dem Arbeitskreis Forum 13+ {.unlisted}
+
 „Forum 13+“ (2021) Spektrum zur Bewertung von Open Access-Transformationsverträgen und Verlagsangeboten: Stand Oktober 2021, DOI: <https://doi.org/10.3249/ugoe-publ-12>)
 
 
 
-## Grundlagendokumente und Positionspapiere zur Open Access-Transformation:
+## Grundlagendokumente und Positionspapiere zur Open Access-Transformation: {.unlisted}
 
 Deutscher Bibliotheksverband (2018): Wissenschaftliche Bibliotheken 2025. Beschlossen von der Sektion 4 „Wissenschaftliche Universalbibliotheken“ im Deutschen Bibliotheksverband e.V. (dbv) im Januar 2018. <https://www.bibliotheksverband.de/fileadmin/user_upload/Sektionen/sektion4/Publikationen/WB2025_Endfassung_endg.pdf>
 
