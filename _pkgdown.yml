@@ -11,6 +11,7 @@ template:
     pkgdown-nav-height: 78px
     font_scale: 1.2
     base_font: {google: "Roboto"}
+    heading_font: {google: "Roboto Slab"}
   path: "inst/pkgdown"
 
 navbar:
@@ -21,8 +22,8 @@ navbar:
     href: index.html
   - text: "Über uns"
     href: articles/uberuns.html
-  - text: "Personen"
-    href: articles/personen.html
+  - text: "Mitglieder"
+    href: articles/mitglieder.html
   - text: "Publikationen"
     href: articles/publikationen.html
 
