@@ -4,15 +4,14 @@ pkgdown:
     as_is:true
 ---
 
-## 
 
-### Kooperative Leitung
+## Kooperative Leitung
 
 - Kai Geschuhn, [Max Planck Digital Library München](https://www.mpg.de/mpdl-de) 
 - Kristine Hillenkötter, [Niedersächsische Staats- und Universitätsbibliothek Göttingen](https://www.sub.uni-goettingen.de/)
 - Dr. Hildegard Schäffler, [Bayerische Staatsbibliothek München](https://www.bsb-muenchen.de/) 
 
-### Mitglieder
+## Mitglieder
 
 - Lydia Glorius, [Niedersächsische Staats- und Universitätsbibliothek Göttingen](https://www.sub.uni-goettingen.de/)
 - Dr. Angela Holzer, [Deutsche Forschungsgemeinschaft](https://www.dfg.de/) (Gast) 
@@ -30,7 +29,7 @@ pkgdown:
 - Stefanie Seeh, [Fraunhofer-Gesellschaft](https://www.fraunhofer.de/)
 - Renate Wahlig, [Universitätsbibliothek J.C. Senckenberg Frankfurt am Main](https://www.ub.uni-frankfurt.de/)
 
-### Durch die Mitglieder werden im Forum 13+ folgende Infrastrukturen und Initiativen vertreten:
+## Durch die Mitglieder werden im Forum 13+ folgende Infrastrukturen und Initiativen vertreten:
 
 - [Allianz der deutschen Wissenschaftsorganisationen: Schwerpunktinitiative „Digitale Information“ / Handlungsfeld „Wissenschaftliches Publikationssystem“](https://www.allianzinitiative.de/handlungsfelder/wissenschaftliches-publikationssystem/) 
 - [ESAC Initiative](https://esac-initiative.org/)
