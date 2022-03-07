@@ -6,10 +6,15 @@ pkgdown:
 
 ## 
 
+### Kooperative Leitung
 
 - Kai Geschuhn, [Max Planck Digital Library München](https://www.mpg.de/mpdl-de) 
-- Lydia Glorius, [Niedersächsische Staats- und Universitätsbibliothek Göttingen](https://www.sub.uni-goettingen.de/)
 - Kristine Hillenkötter, [Niedersächsische Staats- und Universitätsbibliothek Göttingen](https://www.sub.uni-goettingen.de/)
+- Dr. Hildegard Schäffler, [Bayerische Staatsbibliothek München](https://www.bsb-muenchen.de/) 
+
+### Mitglieder
+
+- Lydia Glorius, [Niedersächsische Staats- und Universitätsbibliothek Göttingen](https://www.sub.uni-goettingen.de/)
 - Dr. Angela Holzer, [Deutsche Forschungsgemeinschaft](https://www.dfg.de/) (Gast) 
 - Dr. Antje Kellersohn, [Universitätsbibliothek Freiburg](https://www.ub.uni-freiburg.de/) 
 - Petra Labriga, [ZB MED -- Informationszentrum Lebenswissenschaften](https://www.zbmed.de/) 
@@ -19,14 +24,13 @@ pkgdown:
 - Dirk Pieper, [Universitätsbibliothek Bielefeld](https://www.uni-bielefeld.de/ub/) 
 - Dr. Alexander Pöche, [TIB -- Leibniz-Informationszentrum Technik und Naturwissenschaften](https://www.tib.eu/de/) 
 - Dr. Henriette Rösch, [Universitätsbibliothek Leipzig](https://www.ub.uni-leipzig.de) 
-- Dr. Hildegard Schäffler, [Bayerische Staatsbibliothek München](https://www.bsb-muenchen.de/) 
 - Michaela Selbach, [hbz Köln](https://www.hbz-nrw.de/) 
 - Konstanze Söllner, [Universitätsbibliothek Erlangen-Nürnberg](https://ub.fau.de/) / [Deutscher Bibliotheksverband](https://www.bibliotheksverband.de/) (Gast)
 - Dr. Ursula Stanek, [Staatsbibliothek zu Berlin](https://staatsbibliothek-berlin.de/)
 - Stefanie Seeh, [Fraunhofer-Gesellschaft](https://www.fraunhofer.de/)
 - Renate Wahlig, [Universitätsbibliothek J.C. Senckenberg Frankfurt am Main](https://www.ub.uni-frankfurt.de/)
 
-Durch die Mitglieder werden im Forum 13+ folgende Infrastrukturen und Initiativen vertreten: 
+### Durch die Mitglieder werden im Forum 13+ folgende Infrastrukturen und Initiativen vertreten:
 
 - [Allianz der deutschen Wissenschaftsorganisationen: Schwerpunktinitiative „Digitale Information“ / Handlungsfeld „Wissenschaftliches Publikationssystem“](https://www.allianzinitiative.de/handlungsfelder/wissenschaftliches-publikationssystem/) 
 - [ESAC Initiative](https://esac-initiative.org/)

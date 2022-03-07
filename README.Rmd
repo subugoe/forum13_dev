@@ -74,7 +74,7 @@ p <- my_df %>%
         plot.title = element_text(face = "plain")) +
   theme(legend.position="top") +
   theme(plot.title = element_text(size=30)) +
-  labs(x = NULL, y = NULL, title = "Wissenschaftlichen Artikel\ndeutscher Einrichtungen\n2018-20",
+  labs(x = NULL, y = NULL, title = "Wissenschaftliche Artikel\ndeutscher Einrichtungen\n2018-20",
        caption = 'Quelle: https://open-access-monitor.de\n(Datenstand vom 26.01.2022)')
 
 htmlwidgets::saveWidget(girafe(
