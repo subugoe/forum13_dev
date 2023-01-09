@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://subugoe.github.io/forum13_dev/404.html</loc>
+    <loc>https://forum13plus.de/404.html</loc>
   </url>
   <url>
-    <loc>https://subugoe.github.io/forum13_dev/articles/index.html</loc>
+    <loc>https://forum13plus.de/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>https://subugoe.github.io/forum13_dev/articles/mitglieder.html</loc>
+    <loc>https://forum13plus.de/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://subugoe.github.io/forum13_dev/articles/publikationen.html</loc>
+    <loc>https://forum13plus.de/articles/index.html</loc>
   </url>
   <url>
-    <loc>https://subugoe.github.io/forum13_dev/articles/uberuns.html</loc>
+    <loc>https://forum13plus.de/articles/mitglieder.html</loc>
   </url>
   <url>
-    <loc>https://subugoe.github.io/forum13_dev/authors.html</loc>
+    <loc>https://forum13plus.de/articles/publikationen.html</loc>
   </url>
   <url>
-    <loc>https://subugoe.github.io/forum13_dev/index.html</loc>
+    <loc>https://forum13plus.de/articles/uberuns.html</loc>
   </url>
   <url>
-    <loc>https://subugoe.github.io/forum13_dev/reference/index.html</loc>
+    <loc>https://forum13plus.de/authors.html</loc>
+  </url>
+  <url>
+    <loc>https://forum13plus.de/index.html</loc>
+  </url>
+  <url>
+    <loc>https://forum13plus.de/reference/index.html</loc>
   </url>
 </urlset>
