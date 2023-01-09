@@ -1,7 +1,10 @@
 ---
 title: "Über uns"
-pkgdown:
-    as_is:true
+vignette: >
+  %\VignetteIndexEntry{about}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+toc: no
 ---
 
 ## 
@@ -13,5 +16,6 @@ Forum 13+ sieht seine Arbeit komplementär zu den Aktivitäten von Projekt DEAL,
 Der Arbeitskreis Forum 13+ ist aus dem Umfeld der Allianz-Initiative „Digitale Information“ hervorgegangen und fühlt sich den Strategien der Allianz verpflichtet.
 
 
-**Kooperative Leitung**: Kai Karin Geschuhn (MPDL München), Kristine Hillenkötter (SUB Göttingen), Dr. Hildegard Schäffler (Bayerische Staatsbibliothek, München)</p>
+**Kooperative Leitung**: Kai Karin Geschuhn (MPDL München), Kristine Hillenkötter (SUB Göttingen), Dr. Hildegard Schäffler (Bayerische Staatsbibliothek, München)
 
+**Kontakt**: <info@forum13plus.de>

@@ -1,7 +1,10 @@
 ---
 title: "Publikationen"
-pkgdown:
-    as_is:true
+vignette: >
+  %\VignetteIndexEntry{Publikationen}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+toc: no
 ---
 
 <p class="h2">Publikationen aus dem Arbeitskreis Forum 13+</p>

@@ -1,7 +1,10 @@
 ---
 title: "Mitglieder"
-pkgdown:
-    as_is:true
+vignette: >
+  %\VignetteIndexEntry{Mitglieder}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+toc: no
 ---
 
 
@@ -29,7 +32,9 @@ pkgdown:
 - Stefanie Seeh, [Fraunhofer-Gesellschaft](https://www.fraunhofer.de/)
 - Renate Wahlig, [Universitätsbibliothek J.C. Senckenberg Frankfurt am Main](https://www.ub.uni-frankfurt.de/)
 
-## Durch die Mitglieder werden im Forum 13+ folgende Infrastrukturen und Initiativen vertreten:
+## Infrastrukturen und Initiativen
+
+Durch die Mitglieder werden im Forum 13+ folgende Infrastrukturen und Initiativen vertreten:
 
 - [Allianz der deutschen Wissenschaftsorganisationen: Schwerpunktinitiative „Digitale Information“ / Handlungsfeld „Wissenschaftliches Publikationssystem“](https://www.allianzinitiative.de/handlungsfelder/wissenschaftliches-publikationssystem/) 
 - [ESAC Initiative](https://esac-initiative.org/)
