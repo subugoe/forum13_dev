@@ -1,7 +1,10 @@
 ---
 title: "Mitglieder"
-pkgdown:
-    as_is:true
+vignette: >
+  %\VignetteIndexEntry{Mitglieder}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+toc: no
 ---
 
 

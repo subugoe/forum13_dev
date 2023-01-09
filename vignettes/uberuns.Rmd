@@ -1,7 +1,10 @@
 ---
 title: "Über uns"
-pkgdown:
-    as_is:true
+vignette: >
+  %\VignetteIndexEntry{about}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+toc: no
 ---
 
 ## 
